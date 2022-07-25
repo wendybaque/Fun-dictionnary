@@ -48,7 +48,7 @@ function ResultList() {
         return <h3 className='text-center mt-10 font-semibold text-gray-500'>No definition found</h3>
     }
   return (
-    <div className='container mx-auto p-4 max-w-2xl'>
+    <div className='container mx-auto p-4 max-w-2xl bg-white drop-shadow-lg rounded-md'>
         {response && <div>
             <h3 className='text-2xl font-bold mt-4'>Meanings & definitions </h3>
             <MeaningList mean={response}/>

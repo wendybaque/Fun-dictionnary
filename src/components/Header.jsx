@@ -19,9 +19,9 @@ function Header() {
     }
 
   return (
-    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-lg">
+    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div className="container mx-auto py-8">
-            <h1 className='text-3xl font-bold text-center text-white drop-shadow-lg'>Fun Dictionnary</h1>
+            <h1 className='text-3xl font-bold text-center text-white drop-shadow-lg'>Fun Dictionary</h1>
             <p className='text-center mt-1 mb-10 text-slate-200 text-lg'>Find definitions for words</p>
                 <div className="flex item-center justify-center mt-5">
                     <div className="flex">
