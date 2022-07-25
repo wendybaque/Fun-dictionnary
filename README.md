@@ -8,4 +8,4 @@ React | Tailwindcss
 ## Hooks : useState, useContext, useEffect
 
 # Voir le site en ligne
-(C'est par ici !)[https://fun-dictionnary.vercel.app/]
+C'est par (ici !)[https://fun-dictionnary.vercel.app/]
