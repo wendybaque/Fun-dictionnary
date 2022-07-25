@@ -5,7 +5,7 @@ function Example({mean}) {
     <div>
         {mean.map(val => val.meanings.map(means => means.definitions.map(def => (
             <div key={def.example}>
-                <li>{def.example}</li>
+              {def.example ? <li>{def.example}</li> : ''}
             </div>)
         )))}
     </div>
