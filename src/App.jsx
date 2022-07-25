@@ -1,12 +1,24 @@
-import React from 'react'
-import "../src/App.css"
-import Header from './components/Header'
+import React, { createContext, useState } from 'react'
+import "../src/App.css";
+import Header from './components/Header';
+
+// Create context :
+export const InputContext = createContext();
 
 function App() {
+  const [inputValue, setInputValue] = useState("");
+  console.log(inputValue)
+  const value = {
+    inputValue, 
+    setInputValue,
+  }
+
   return (
-    <div>
-      <Header />    
-    </div>
+    <InputContext.Provider value={value}>
+      <div className='App'>
+        <Header />    
+      </div>
+    </InputContext.Provider>
   )
 }
 
