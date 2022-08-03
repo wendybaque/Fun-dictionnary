@@ -24,7 +24,7 @@ function Header() {
             <h1 className='text-3xl font-bold text-center text-white drop-shadow-lg'>Fun Dictionary</h1>
             <p className='text-center mt-1 mb-10 text-slate-200 text-lg'>Find definitions for words</p>
                 <div className="flex item-center justify-center mt-5">
-                    <div className="flex">
+                    <div className="flex p-5">
                         <input type="text" placeholder='Search...' className='px-4 py-2 md:w-80 rounded-l-lg drop-shadow-lg' onChange={handleInputChange} value={value} onKeyDown={handleInputKeyDown}/>
                         <button type='button' className='bg-indigo-500 border-l px-4 py-2 text-white rounded-r-lg drop-shadow-lg' onClick={handleSubmit}>Search</button>
                     </div>
